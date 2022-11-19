@@ -1,6 +1,3 @@
-import 'package:erasmus_m_c/repositories/{{repository_name.snakeCase()}}/{{repository_name.snakeCase()}}.dart';
-
-
 /// {@template api_{{repository_name.snakeCase()}}_repository}
 /// [{{repository_name.pascalCase()}}Repository]
 /// {@endtemplate}
