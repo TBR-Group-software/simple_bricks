@@ -30,3 +30,35 @@ mason make simple_repository --repository_name example
 └── └──
 
 ```
+
+## Abstract Repository File 📁
+
+```dart
+abstract class ExampleRepository {}
+```
+
+
+## Api Repository File 📁
+```dart
+/// {@template api_example_repository}
+/// [ExampleRepository]
+/// {@endtemplate}
+class ApiExampleRepository extends ExampleRepository {
+  /// {@macro api_example_repository}
+}
+```
+
+## Test Repository File 📁
+
+```dart
+import 'package:flutter_test/flutter_test.dart';
+
+void main() {
+  group("Testing Example Repository", () {
+    //TODO: implement the tests
+
+    setUp(() {});
+    test("Test method", () {});
+  });
+}
+```
