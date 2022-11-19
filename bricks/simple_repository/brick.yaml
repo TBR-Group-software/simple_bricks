@@ -1,6 +1,6 @@
 name: simple_repository
 description: Brick for the simple creating repositories and tests for them.
-
+repository: https://github.com/TBR-Group-software/simple_bricks/tree/main/bricks/simple_repository
 version: 0.1.0+1
 
 environment:
